@@ -1,0 +1,25 @@
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hover effects for components */
+.glass:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 12px 40px 0 rgba(0, 33, 71, 0.1);
+}
+
+/* Ensure sections are visible below fixed navbar */
+section {
+  scroll-margin-top: 80px;
+}
