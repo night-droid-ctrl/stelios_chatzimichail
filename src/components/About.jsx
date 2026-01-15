@@ -7,11 +7,13 @@ const About = () => {
             <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '50px', alignItems: 'center' }}>
                 <div className="glass" style={{ padding: '40px', borderRadius: '20px', background: 'white' }}>
                     <h2 style={{ marginBottom: '20px' }}>About Me</h2>
-                    <p style={{ marginBottom: '20px', fontSize: '1.05rem' }}>
-                        I am a <strong>Post-doctoral Fellow</strong> at the <strong>University of Oxford</strong>, Department of Physics, and a member of the <strong>Kapanidis Group</strong> at the Kavli Institute for Nanoscience Discovery.
+                    <p style={{ marginBottom: '20px', fontSize: '1.1rem', lineHeight: '1.6' }}>
+                        I am a <strong>MSCA-Onisilos Research Fellow</strong> at the <strong>University of Cyprus</strong> (Fatta-Kassinos and Koliou Groups).
+                        Previously, I was a Postdoctoral Research Associate at the University of Oxford (Kapanidis Group) and Imperial College London (Salehi-Reyhani Group).
                     </p>
-                    <p style={{ marginBottom: '20px', fontSize: '1.05rem' }}>
-                        My work sits at the intersection of <strong>single-molecule biophysics</strong>, <strong>AI/ML in medicine</strong>, and <strong>mechanical engineering</strong>. I hold a PhD from the University of Cyprus, where I focused on microfluidics and single-cell analysis.
+                    <p style={{ marginBottom: '20px', fontSize: '1rem', lineHeight: '1.6' }}>
+                        My research focuses on <strong>single-molecule biophysics</strong>, <strong>microfluidics</strong>, and <strong>AI/ML in medicine</strong>.
+                        I specialize in developing next-generation diagnostics for Antimicrobial Resistance (AMR) using single-cell imaging and deep learning.
                     </p>
                     <p style={{ fontSize: '1.05rem' }}>
                         Currently, I am developing next-generation diagnostics for <strong>Antimicrobial Resistance (AMR)</strong> using single-cell imaging and deep learning to enable rapid, life-saving clinical decisions.

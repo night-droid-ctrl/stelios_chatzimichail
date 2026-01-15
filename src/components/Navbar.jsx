@@ -18,8 +18,10 @@ const Navbar = () => {
       <ul style={{ display: 'flex', gap: '30px' }}>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#cv">CV</a></li>
         <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#outreach">Outreach</a></li>
+        <li><a href="#cv">CV</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>

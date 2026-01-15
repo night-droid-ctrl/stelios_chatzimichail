@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Research from './components/Research';
+import Teaching from './components/Teaching';
+import Outreach from './components/Outreach';
 import Publications from './components/Publications';
 import Contact from './components/Contact';
 import CV from './components/CV';
@@ -15,8 +17,10 @@ function App() {
       <main>
         <Hero />
         <About />
-        <CV />
         <Research />
+        <Teaching />
+        <Outreach />
+        <CV />
         <Publications />
         <Contact />
       </main>
