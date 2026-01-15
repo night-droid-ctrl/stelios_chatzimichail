@@ -21,11 +21,12 @@ const Hero = () => {
             }}>
                 <div style={{ textAlign: 'left' }}>
                     <h1 style={{ fontSize: '3.5rem', marginBottom: '15px' }}>Stelios Chatzimichail</h1>
-                    <h2 style={{ fontSize: '1.5rem', fontWeight: 400, color: 'var(--text-muted)', marginBottom: '30px' }}>
-                        Post-doctoral Fellow @ University of Oxford
+                    <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary)', marginBottom: '15px', fontWeight: 500 }}>
+                        MSCA-Onisilos Research Fellow
                     </h2>
-                    <p style={{ fontSize: '1.1rem', marginBottom: '40px', lineHeight: '1.8' }}>
-                        Pioneering single-cell diagnostics and antimicrobial resistance testing through single-molecule biophysics and AI.
+                    <p style={{ fontSize: '1.1rem', marginBottom: '30px', maxWidth: '600px', lineHeight: '1.6' }}>
+                        <strong>University of Cyprus</strong><br />
+                        <span style={{ fontSize: '0.95rem', color: 'var(--text-muted)' }}>Previously: University of Oxford, Imperial College London</span>
                     </p>
                     <div style={{ display: 'flex', gap: '20px' }}>
                         <a href="#contact" className="glass" style={{

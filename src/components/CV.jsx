@@ -113,7 +113,7 @@ const CV = () => {
                     <div>
                         <h4 style={{ fontSize: '1.2rem', color: 'var(--primary)', marginBottom: '20px', borderLeft: '4px solid var(--secondary)', paddingLeft: '10px' }}>Reviewing Activities</h4>
                         <ul style={{ listStyle: 'none', padding: 0, display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-                            {['ACS Sensors', 'Lab on a Chip', 'Royal Society Open Science', 'Analytical Sciences'].map((journal, i) => (
+                            {['Nature Communications', 'ACS Sensors', 'Lab on a Chip', 'Royal Society Open Science', 'Analytical Sciences'].map((journal, i) => (
                                 <li key={i} className="glass" style={{ padding: '8px 15px', borderRadius: '15px', fontSize: '0.9rem', background: '#f8f9fa' }}>
                                     {journal}
                                 </li>

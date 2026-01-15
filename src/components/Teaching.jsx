@@ -57,36 +57,26 @@ const Teaching = () => {
                         </h3>
                         <p style={{ marginBottom: '20px' }}>Prioritizing mentorship to foster analytical and critical thinking skills in the next generation of scientists.</p>
 
-                        <div style={{ overflowX: 'auto' }}>
-                            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '600px' }}>
-                                <thead>
-                                    <tr style={{ textAlign: 'left', borderBottom: '2px solid #eee' }}>
-                                        <th style={{ padding: '10px', color: 'var(--text-muted)' }}>Student</th>
-                                        <th style={{ padding: '10px', color: 'var(--text-muted)' }}>Role/Degree</th>
-                                        <th style={{ padding: '10px', color: 'var(--text-muted)' }}>Period</th>
-                                        <th style={{ padding: '10px', color: 'var(--text-muted)' }}>Institution</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {[
-                                        { name: 'Sayed Saifuddin', degree: 'MSc CEE', period: '2025-present', uni: 'University of Cyprus' },
-                                        { name: 'Katerina Koliantri', degree: 'BSc Physics', period: '2025-present', uni: 'University of Cyprus' },
-                                        { name: 'Alison Farrar', degree: 'PhD Physics', period: '2021–2025', uni: 'University of Oxford' },
-                                        { name: 'Faraz Rahimi', degree: 'PhD Chemistry', period: '2019–2021', uni: 'Imperial College London' },
-                                        { name: 'Aliyah Saifuddin', degree: 'PhD Chemistry', period: '2019–2021', uni: 'Imperial College London' },
-                                        { name: 'Vanessa Ho', degree: 'BSc Chemistry', period: '2017–2018', uni: 'Imperial College London' },
-                                        { name: 'Pashiini Supramaniam', degree: 'MSci Chemistry', period: '2016–2017', uni: 'Imperial College London' }
-                                    ].map((student, i) => (
-                                        <tr key={i} style={{ borderBottom: '1px solid #f5f5f5' }}>
-                                            <td style={{ padding: '12px 10px', fontWeight: 600 }}>{student.name}</td>
-                                            <td style={{ padding: '12px 10px' }}>{student.degree}</td>
-                                            <td style={{ padding: '12px 10px', color: 'var(--text-muted)', fontSize: '0.9rem' }}>{student.period}</td>
-                                            <td style={{ padding: '12px 10px' }}>{student.uni}</td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
+                        <p style={{ marginBottom: '20px', fontSize: '1.05rem', lineHeight: '1.6' }}>
+                            In my postgraduate and postdoctoral career, I have supervised a diverse group of students across <strong>Physics</strong>, <strong>Chemistry</strong>, and <strong>Civil & Environmental Engineering</strong>. This includes:
+                        </p>
+                        <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap', marginBottom: '20px' }}>
+                            <div className="glass" style={{ padding: '15px 25px', borderRadius: '15px', textAlign: 'center', background: '#f8f9fa' }}>
+                                <span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary)' }}>3</span>
+                                <span style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>PhD Students</span>
+                            </div>
+                            <div className="glass" style={{ padding: '15px 25px', borderRadius: '15px', textAlign: 'center', background: '#f8f9fa' }}>
+                                <span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary)' }}>3</span>
+                                <span style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>BSc/MSci Students</span>
+                            </div>
+                            <div className="glass" style={{ padding: '15px 25px', borderRadius: '15px', textAlign: 'center', background: '#f8f9fa' }}>
+                                <span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary)' }}>1</span>
+                                <span style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>MSc Student</span>
+                            </div>
                         </div>
+                        <p style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>
+                            I have served as the primary day-to-day mentor for these students, guiding them from research conceptualization to publication.
+                        </p>
                     </div>
 
                 </div>
