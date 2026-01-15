@@ -23,7 +23,7 @@ const Contact = () => {
                     <span style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>stelios.chatzimichail@physics.ox.ac.uk</span>
                 </a>
 
-                <a href="https://www.linkedin.com/in/stelioschatzimichail/" target="_blank" rel="noopener noreferrer" className="glass" style={{
+                <a href="https://www.linkedin.com/in/stelios-chatzimichail-89246745/" target="_blank" rel="noopener noreferrer" className="glass" style={{
                     padding: '20px 40px',
                     borderRadius: '15px',
                     display: 'flex',

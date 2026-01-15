@@ -13,10 +13,10 @@ const Publications = () => {
             image: paper1Img
         },
         {
-            title: "Deep learning and single-cell phenotyping for rapid antimicrobial susceptibility detection in Escherichia coli",
+            title: "Ribosome phenotypes for rapid classification of antibiotic-susceptible and resistant strains of Escherichia coli",
             journal: "Communications Biology",
-            year: "2023",
-            link: "https://doi.org/10.1038/s42003-023-05524-4",
+            year: "2025",
+            link: "https://www.nature.com/articles/s42003-025-07740-6",
             image: paper2Img
         },
         {

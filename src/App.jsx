@@ -5,6 +5,7 @@ import About from './components/About';
 import Research from './components/Research';
 import Publications from './components/Publications';
 import Contact from './components/Contact';
+import CV from './components/CV';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <CV />
         <Research />
         <Publications />
         <Contact />
