@@ -36,7 +36,7 @@ const Outreach = () => {
                     <div className="glass" style={{ padding: '40px', borderRadius: '20px', background: 'white' }}>
                         <h3 style={{ fontSize: '1.3rem', marginBottom: '15px', color: 'var(--primary)' }}>Physics of Life</h3>
                         <p style={{ lineHeight: '1.7' }}>
-                            Regular participant in this annual event by the University of Oxford. I demonstrated experiments to the public, specifically using the ACBC microfluidic device to capture bacteria and visualize them with DNA/membrane dyes, promoting public understanding of physics in health.
+                            Regular participant in this annual event by the University of Oxford. I demonstrated experiments to the public, specifically using microscopy and microfluidics to visualize bacteria stained with DNA/membrane dyes, promoting public understanding of physics in health.
                         </p>
                     </div>
 
