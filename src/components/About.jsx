@@ -16,7 +16,7 @@ const About = () => {
                         I specialize in developing next-generation diagnostics for Antimicrobial Resistance (AMR) using single-cell imaging and deep learning.
                     </p>
                     <p style={{ fontSize: '1.05rem' }}>
-                        Currently, I am developing next-generation diagnostics for <strong>Antimicrobial Resistance (AMR)</strong> using single-cell imaging and deep learning to enable rapid, life-saving clinical decisions.
+                        Currently, I am developing next-generation diagnostics for <strong>Antimicrobial Resistance (AMR)</strong> using single-cell imaging and deep learning to enable better antimicrobial stewardship and new biophysical techniques at visualizing Horizontal Gene Transfer from Bacterial Vesicles to sensitive cells.
                     </p>
                 </div>
                 <div className="glass" style={{
